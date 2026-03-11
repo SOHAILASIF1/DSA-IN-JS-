@@ -19,11 +19,14 @@
 //     otpGenerator()
 
 // },1000)
-// Area Of Tringle By herons formula
-let a=3
-let b=4
-let c=5
-let s=((a+b+c)/2)
-let area=Math.sqrt(s*(s-a)*(s-b)*(s-c))
-console.log(area);
+// // Area Of Tringle By herons formula
+// let a=3
+// let b=4
+// let c=5
+// let s=((a+b+c)/2)
+// let area=Math.sqrt(s*(s-a)*(s-b)*(s-c))
+// console.log(area);
+let radius=7
+let c=2*Math.PI*radius
+console.log(c);
 
