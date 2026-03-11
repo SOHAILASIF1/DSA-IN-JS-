@@ -11,7 +11,7 @@
 // }
 
 // shop Discount 
-let shoping=10000
+let shoping=100000
 if (shoping>0&&shoping<=5000) {
     let Discount=0
     let res=(Discount/100)*shoping
@@ -28,6 +28,12 @@ if (shoping>0&&shoping<=5000) {
     
 } else if(shoping>7000&&shoping<=10000){
        let Discount=20
+    let res=(Discount/100)*shoping
+   let final =shoping-res
+   console.log(final);
+
+}else if(shoping>10000){
+       let Discount=50
     let res=(Discount/100)*shoping
    let final =shoping-res
    console.log(final);
