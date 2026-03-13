@@ -14,11 +14,22 @@
 // }
 
 
-// sum of natural number
-let n=10
-let sum=0
-for (let i = 1; i < n; i++) {
-    sum+=i
+// // sum of natural number
+// let n=10
+// let sum=0
+// for (let i = 1; i < n; i++) {
+//     sum+=i
+// }
+// console.log(sum);
+
+
+//factorial of n number
+
+let n=5
+let factorial=1
+for (let i = n; i >0; i--) {
+   factorial=factorial*i
+    
 }
-console.log(sum);
+console.log(factorial);
 
