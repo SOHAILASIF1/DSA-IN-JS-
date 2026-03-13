@@ -42,25 +42,87 @@
 
 
 
-// bijli bill
-let unit = 700
-let amount = 0
+// // bijli bill
+// let unit = 700
+// let amount = 0
 
-if (unit > 400) {
-   amount += (unit - 400) * 13
-   unit = 400
+// if (unit > 400) {
+//    amount += (unit - 400) * 13
+//    unit = 400
+// }
+
+// if (unit > 200) {
+//    amount += (unit - 200) * 8
+//    unit = 200
+// }
+
+// if (unit > 100) {
+//    amount += (unit - 100) * 6
+//    unit = 100
+// }
+
+// amount += unit * 4
+
+// console.log(amount)
+
+//pkr denomination
+let amount=12110
+if (amount>=5000) {
+   let remain=Math.floor(amount/5000)
+   console.log(`the given amount have ${remain} 5000 notes`);
+   
+   amount=amount%5000 //1210
+   
+   
 }
-
-if (unit > 200) {
-   amount += (unit - 200) * 8
-   unit = 200
+if (amount>=1000) {
+   let remain=Math.floor(amount/1000)
+   console.log(`the given amount have ${remain} 1000 notes`);
+   
+   amount=amount%1000 //210
+   
+   
 }
-
-if (unit > 100) {
-   amount += (unit - 100) * 6
-   unit = 100
+if (amount>=500) {
+   let remain=Math.floor(amount/500)
+   console.log(`the given amount have ${remain} 500 notes`);
+   
+   amount=amount%500
+   
+   
 }
+if (amount>=100) {
+   let remain=Math.floor(amount/100)
+   console.log(`the given amount have ${remain} 100 notes`);
+   
+   amount=amount%100
+   
+   
+}
+if (amount>=50) {
+   let remain=Math.floor(amount/50)
+   console.log(`the given amount have ${remain} 50 notes`);
+   
+   amount=amount%50
+   
+   
+}
+if (amount>=20) {
+   let remain=Math.floor(amount/20)
+   console.log(`the given amount have ${remain} 20 notes`);
+   
+   amount=amount%20
+   
+   
+}
+if (amount>=10) {
+   let remain=Math.floor(amount/10)
+   console.log(`the given amount have ${remain} 10 notes`);
+   
+   amount=amount%10
+   
+   
+}
+console.log(amount);
 
-amount += unit * 4
 
-console.log(amount)
