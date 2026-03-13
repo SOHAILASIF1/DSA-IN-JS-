@@ -65,64 +65,81 @@
 
 // console.log(amount)
 
-//pkr denomination
-let amount=12110
-if (amount>=5000) {
-   let remain=Math.floor(amount/5000)
-   console.log(`the given amount have ${remain} 5000 notes`);
+// //pkr denomination
+// let amount=12110
+// if (amount>=5000) {
+//    let remain=Math.floor(amount/5000)
+//    console.log(`the given amount have ${remain} 5000 notes`);
    
-   amount=amount%5000 //1210
+//    amount=amount%5000 //1210
    
    
+// }
+// if (amount>=1000) {
+//    let remain=Math.floor(amount/1000)
+//    console.log(`the given amount have ${remain} 1000 notes`);
+   
+//    amount=amount%1000 //210
+   
+   
+// }
+// if (amount>=500) {
+//    let remain=Math.floor(amount/500)
+//    console.log(`the given amount have ${remain} 500 notes`);
+   
+//    amount=amount%500
+   
+   
+// }
+// if (amount>=100) {
+//    let remain=Math.floor(amount/100)
+//    console.log(`the given amount have ${remain} 100 notes`);
+   
+//    amount=amount%100
+   
+   
+// }
+// if (amount>=50) {
+//    let remain=Math.floor(amount/50)
+//    console.log(`the given amount have ${remain} 50 notes`);
+   
+//    amount=amount%50
+   
+   
+// }
+// if (amount>=20) {
+//    let remain=Math.floor(amount/20)
+//    console.log(`the given amount have ${remain} 20 notes`);
+   
+//    amount=amount%20
+   
+   
+// }
+// if (amount>=10) {
+//    let remain=Math.floor(amount/10)
+//    console.log(`the given amount have ${remain} 10 notes`);
+   
+//    amount=amount%10
+   
+   
+// }
+// console.log(amount);
+
+
+let num=Number((0.1+0.2).toFixed(1))
+
+
+
+switch(num){
+   case 0.3:console.log("hey");
+   break
+
+
+   default:console.log("Invalid");
+   
+
+   
+
 }
-if (amount>=1000) {
-   let remain=Math.floor(amount/1000)
-   console.log(`the given amount have ${remain} 1000 notes`);
-   
-   amount=amount%1000 //210
-   
-   
-}
-if (amount>=500) {
-   let remain=Math.floor(amount/500)
-   console.log(`the given amount have ${remain} 500 notes`);
-   
-   amount=amount%500
-   
-   
-}
-if (amount>=100) {
-   let remain=Math.floor(amount/100)
-   console.log(`the given amount have ${remain} 100 notes`);
-   
-   amount=amount%100
-   
-   
-}
-if (amount>=50) {
-   let remain=Math.floor(amount/50)
-   console.log(`the given amount have ${remain} 50 notes`);
-   
-   amount=amount%50
-   
-   
-}
-if (amount>=20) {
-   let remain=Math.floor(amount/20)
-   console.log(`the given amount have ${remain} 20 notes`);
-   
-   amount=amount%20
-   
-   
-}
-if (amount>=10) {
-   let remain=Math.floor(amount/10)
-   console.log(`the given amount have ${remain} 10 notes`);
-   
-   amount=amount%10
-   
-   
-}
-console.log(amount);
 
 
