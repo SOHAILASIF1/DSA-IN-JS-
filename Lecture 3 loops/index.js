@@ -105,34 +105,45 @@
 // }
 // console.log(rev);
 
-//strong number
-let num=145
-let sum=0
-let fact =1
-while(num>0){
-    let rem=num%10
-    for (let i = rem; i > 0; i--) {
-        fact=fact*i
+// //strong number
+// let num=145
+// let sum=0
+// let fact =1
+// while(num>0){
+//     let rem=num%10
+//     for (let i = rem; i > 0; i--) {
+//         fact=fact*i
         
-    }
+//     }
 
-    sum+=fact
-    fact=1
-    num=Math.floor(num/10)
-}
-console.log(sum);
+//     sum+=fact
+//     fact=1
+//     num=Math.floor(num/10)
+// }
+// console.log(sum);
 
 
 
-if (sum===num) {
-    console.log("This is strong Number");
+// if (sum===num) {
+//     console.log("This is strong Number");
     
     
-}else{
-    console.log("sum of Factorial of all digits is not equal to orignal number");
+// }else{
+//     console.log("sum of Factorial of all digits is not equal to orignal number");
     
-}
+// }
 
+
+// //repeat hello
+// let pr
+
+// do {
+//     pr = prompt("Enter 0 to exit")
+//     if (pr === "0") break
+
+//     console.log("hello")
+
+// } while (true)
 
 
 
