@@ -95,15 +95,45 @@
 //  }
 //  console.log(sum);
 
-//reverse a number
-let n=23456
-let rev=0   //the equation of reverse is rev=rev*10+rem 
-while(n>0){
-    let rem=n%10
-    rev=rev*10+rem
-    n=Math.floor(n/10)
+// //reverse a number
+// let n=23456
+// let rev=0   //the equation of reverse is rev=rev*10+rem 
+// while(n>0){
+//     let rem=n%10
+//     rev=rev*10+rem
+//     n=Math.floor(n/10)
+// }
+// console.log(rev);
+
+//strong number
+let num=145
+let sum=0
+let fact =1
+while(num>0){
+    let rem=num%10
+    for (let i = rem; i > 0; i--) {
+        fact=fact*i
+        
+    }
+
+    sum+=fact
+    fact=1
+    num=Math.floor(num/10)
 }
-console.log(rev);
+console.log(sum);
+
+
+
+if (sum===num) {
+    console.log("This is strong Number");
+    
+    
+}else{
+    console.log("sum of Factorial of all digits is not equal to orignal number");
+    
+}
+
+
 
 
  
