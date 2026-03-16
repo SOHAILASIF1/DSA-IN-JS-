@@ -146,33 +146,45 @@
 // } while (true)
 
 
-//guess number
-let random=Math.floor(Math.random()*100)+1
-let guess=0
-while(guess!==random){
-    guess=Number(prompt("hi guess it"))
-    if (isNaN(guess)) {
-        console.log("Invalid Number");
+// //guess number
+// let random=Math.floor(Math.random()*100)+1
+// let guess=0
+// while(guess!==random){
+//     guess=Number(prompt("hi guess it"))
+//     if (isNaN(guess)) {
+//         console.log("Invalid Number");
 
         
         
-    }
+//     }
 
-    if (guess>random) {
-        console.log("too high");
+//     if (guess>random) {
+//         console.log("too high");
         
         
-    }else if (guess<random) {
-        console.log('too low');
+//     }else if (guess<random) {
+//         console.log('too low');
         
         
-    }else{
-        console.log("you nailed it");
+//     }else{
+//         console.log("you nailed it");
         
-    }
+//     }
+// }
+
+
+//PATTERN PROGRAMMING
+
+
+let n=10
+for (let i = 1; i <=n; i++) {
+  for (let j = 1; j <=i; j++) {
+   console.log("*");
+   
+    
+  }
+    
 }
-
-
  
 
 
