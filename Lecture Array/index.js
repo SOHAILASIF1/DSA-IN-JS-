@@ -66,14 +66,58 @@
 
 
 // reverse a array
-let arr=[1,2,3,4,5,6,7,8,9,10]
-let revArr=[]
-for (let index = arr.length -1 ; index >= 0; index--) {
-    console.log(index);
+
+//first approch
+// let arr=[1,2,3,4,5,6,7,8,9,10]
+// let revArr=[]
+// for (let index = arr.length -1 ; index >= 0; index--) {
+   
     
-    revArr.push(arr[index])
+//     revArr.push(arr[index])
     
+// }
+// console.log(revArr);
+
+//second approch
+// let revArr=new Array(arr.length)
+// let j=0
+// for (let i = arr.length-1; i >= 0; i--) {
+//     revArr[j]=arr[i]
+//     j++
+    
+// }
+
+// //approch 3 rev array without extra array (space)
+// let i=0, j=arr.length-1
+// console.log(arr);
+
+// while(i<j ){
+//     console.log(i);
+    
+//     let temp=arr[i]
+//     arr[i]=arr[j]
+//     arr[j]=temp
+//     i++
+//     j--
+
+// }
+// console.log(arr);
+
+
+//All Zeros On Left
+let arr=[0,1,1,0,1,0,1,1,0,1,0,1,0]
+let i=0, j=0
+while(i<arr.length){
+    if (arr[i]===0) {
+        let temp=arr[i]
+        arr[i]=arr[j]
+        arr[j]=temp
+        j++
+        
+    }
+    i++
+
 }
-console.log(revArr);
+console.log(arr);
 
 
