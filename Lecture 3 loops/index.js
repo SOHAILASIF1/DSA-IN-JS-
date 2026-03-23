@@ -105,7 +105,7 @@
 // }
 // console.log(rev);
 
-// //strong number
+ // //strong number
 // let num=145
 // let sum=0
 // let fact =1
@@ -173,19 +173,27 @@
 // }
 
 
-//PATTERN PROGRAMMING
+// //PATTERN PROGRAMMING
 
 
-let n=10
-for (let i = 1; i <=n; i++) {
-  for (let j = 1; j <=i; j++) {
-   console.log("*");
+// let n=10
+// for (let i = 1; i <=n; i++) {
+//   for (let j = 1; j <=i; j++) {
+//    console.log("*");
    
     
-  }
+//   }
     
-}
- 
+//}
+
+
+let array=[10,20,40,50,60]
+ let sum=0
+ for (let index = 0; index < array.length; index++) {
+     sum += array[index];
+    
+ }
+console.log(sum);
 
 
 
