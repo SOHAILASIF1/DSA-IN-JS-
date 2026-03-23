@@ -117,7 +117,7 @@ while(i<arr.length){
     }
     i++
 
-}
+}//jk
 console.log(arr);
 
 
