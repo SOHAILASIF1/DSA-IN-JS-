@@ -104,20 +104,34 @@
 // console.log(arr);
 
 
-//All Zeros On Left
-let arr=[0,1,1,0,1,0,1,1,0,1,0,1,0]
-let i=0, j=0
-while(i<arr.length){
-    if (arr[i]===0) {
-        let temp=arr[i]
-        arr[i]=arr[j]
-        arr[j]=temp
-        j++
+// //All Zeros On Left
+// let arr=[0,1,1,0,1,0,1,1,0,1,0,1,0]
+// let i=0, j=0
+// while(i<arr.length){
+//     if (arr[i]===0) {
+//         let temp=arr[i]
+//         arr[i]=arr[j]
+//         arr[j]=temp
+//         j++
         
-    }
-    i++
+//     }
+//     i++
 
-}//jk
+// }//jk
+// console.log(arr);
+
+
+
+
+let arr=[1,2,3,4,5]
+let copy=arr[0]
+for (let index = 0; index < arr.length-1; index++) {
+    arr[index]=arr[index+1]
+    
+    
+}
+arr[arr.length-1]=copy
 console.log(arr);
+
 
 
