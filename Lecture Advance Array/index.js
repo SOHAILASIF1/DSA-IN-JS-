@@ -70,17 +70,48 @@
 // }
 
 
-//duplicate in sorted array
+// //duplicate in sorted array
 
-let arr=[0,0,1,1,1,2,3,3,4,5,6]
-let j=1
+// let arr=[0,0,1,1,1,2,3,3,4,5,6]
+// let j=1
 
-for (let i = 0; i < arr.length-1; i++) {
+// for (let i = 0; i < arr.length-1; i++) {
    
-    if (arr[i]!=arr[i+1]) {
-        arr[j]=arr[i+1]
+//     if (arr[i]!=arr[i+1]) {
+//         arr[j]=arr[i+1]
+//         j++
+//     }
+   
+// }
+// console.log(arr);
+
+
+
+
+//merge sorted Array
+//with extra space
+let arr1=[1,2,5,7,9]
+let arr2=[3,4,8,10]
+let i=j=k=0
+let temp=new Array(arr1.length + arr2.length)
+while(i<arr1.length && j<arr2.length){
+    if (arr1[i]<arr2[j]) {
+        temp[k]=arr1[i]
+        k++
+        i++
+        
+    }else{
+        temp[k]=arr2[j]
         j++
+        k++
     }
-   
+
 }
-console.log(arr);
+while(i<arr1.length){
+    temp[k++]=arr1[i++]
+}
+while (j<arr2.length){
+    temp[k++]=arr2[j++]
+}
+console.log(temp);
+
