@@ -10,7 +10,6 @@
 // arr[arr.length-1]=copy
 // console.log(arr);
 
-//right rotation by 1
 //bruteforce approch
 // let arr=[1,2,3,4]
 // let copy=arr[arr.length-1]
@@ -36,13 +35,39 @@
 // // arr[arr.length-1]=copy
 // console.log(temp);
 
-// right rotaion by k time
-let arr=[1,2,3,4,5]
-let temp=[]
-let k=2
-for (let i = 0; i < arr.length; i++) {
-    temp[(i+k)%arr.length]=arr[i]
+// // right rotaion by k time
+// let arr=[1,2,3,4,5]
+// let temp=[]
+// let k=2
+// for (let i = 0; i < arr.length; i++) {
+//     temp[(i+k)%arr.length]=arr[i]
     
-}
-console.log(temp);
+// }
+// console.log(temp);
 
+
+
+//the most efficent algotthim to solve this
+
+// let arr=[1,2,3,4,5]
+// let k=2
+// rverse(0,k-1)
+// rverse(k,arr.length-1)
+// rverse(0,arr.length-1)
+// console.log(arr);
+
+
+
+// function rverse(i,j){
+//     while(i<j){
+//         let temp=arr[i]
+//         arr[i]=arr[j]
+//         arr[j]=temp
+//         i++
+//         j--
+//     }
+
+// }
+
+
+//duplicate in sorted array
