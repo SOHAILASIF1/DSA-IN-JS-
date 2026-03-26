@@ -171,5 +171,24 @@
 // console.log(arr);
 
 
+//sorty the subArray
+let arr=[-2,1,0,-1,2,3,4,-1,5,2,1,1]
+let sum=0
+let max=-Infinity
+for (let i = 0; i < arr.length; i++) {
+    sum+=arr[i]
+    if (sum<0) {
+        sum=0
+        
+    }
+    if (sum>max) {
+        max=sum
+        
+    }
+    
+    
+}
+
+
 
 
