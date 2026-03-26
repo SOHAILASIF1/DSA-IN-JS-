@@ -90,28 +90,86 @@
 
 //merge sorted Array
 //with extra space
-let arr1=[1,2,5,7,9]
-let arr2=[3,4,8,10]
-let i=j=k=0
-let temp=new Array(arr1.length + arr2.length)
-while(i<arr1.length && j<arr2.length){
-    if (arr1[i]<arr2[j]) {
-        temp[k]=arr1[i]
-        k++
-        i++
+// let arr1=[1,2,5,7,9]
+// let arr2=[3,4,8,10]
+// let i=j=k=0
+// let temp=new Array(arr1.length + arr2.length)
+// while(i<arr1.length && j<arr2.length){
+//     if (arr1[i]<arr2[j]) {
+//         temp[k]=arr1[i]
+//         k++
+//         i++
         
-    }else{
-        temp[k]=arr2[j]
-        j++
-        k++
-    }
+//     }else{
+//         temp[k]=arr2[j]
+//         j++
+//         k++
+//     }
 
-}
-while(i<arr1.length){
-    temp[k++]=arr1[i++]
-}
-while (j<arr2.length){
-    temp[k++]=arr2[j++]
-}
-console.log(temp);
+// }
+// while(i<arr1.length){
+//     temp[k++]=arr1[i++]
+// }
+// while (j<arr2.length){
+//     temp[k++]=arr2[j++]
+// }
+// console.log(temp);
+
+
+
+
+//Best Time To Buy And Sell Stock
+
+// let arr=[2,3,4,8,9,3]
+// let maxProfit=0
+// let min=arr[0]
+// for (let i = 0; i < arr.length; i++) {
+//    if (arr[i]<min) {
+//     min=arr[i]
+    
+//    }
+//   let diff= arr[i]-min
+// //   console.log(diff);
+//   if (diff>maxProfit) {
+//     maxProfit=diff
+    
+//   }
+  
+
+    
+    
+// }
+// // console.log(min);
+// console.log(maxProfit);
+
+// //sort the color
+// //0=red,1=blue 2=yellow
+// //dutch national algorithim
+
+// let arr=[0,1,1,2,1,1,2,0]
+// let i=0 ,j=0,k=arr.length-1
+// while(i<k){
+//     if (arr[i]===0) {
+//         let temp=arr[i]
+//         arr[i]=arr[j]
+//         arr[j]=temp
+//         j++
+//         i++
+        
+//     }else if(arr[i]===2){
+//         let temp=arr[i]
+//         arr[i]=arr[k]
+//         arr[k]=temp
+//         k--
+        
+//     }else{
+//         i++
+//     }
+        
+
+// }
+// console.log(arr);
+
+
+
 
