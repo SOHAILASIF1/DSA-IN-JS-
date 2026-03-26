@@ -171,7 +171,7 @@
 // console.log(arr);
 
 
-//sorty the subArray
+//find subarray with largest sum t
 let arr=[-2,1,0,-1,2,3,4,-1,5,2,1,1]
 let sum=0
 let max=-Infinity
@@ -185,9 +185,12 @@ for (let i = 0; i < arr.length; i++) {
         max=sum
         
     }
-    
+
     
 }
+console.log(max);
+console.log(sum);
+
 
 
 
