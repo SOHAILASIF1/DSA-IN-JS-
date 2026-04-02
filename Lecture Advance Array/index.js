@@ -72,7 +72,7 @@
 
 // //duplicate in sorted array
 
-// let arr=[0,0,1,1,1,2,3,3,4,5,6]
+// let arr=[0,0,1,1,1,2,3]
 // let j=1
 
 // for (let i = 0; i < arr.length-1; i++) {
@@ -172,24 +172,54 @@
 
 
 //find subarray with largest sum t
-let arr=[-2,1,0,-1,2,3,4,-1,5,2,1,1]
-let sum=0
-let max=-Infinity
-for (let i = 0; i < arr.length; i++) {
-    sum+=arr[i]
-    if (sum<0) {
-        sum=0
+// let arr=[-2,1,0,-1,2,3,4,-1,5,2,1,1]
+// let sum=0
+// let max=-Infinity
+// for (let i = 0; i < arr.length; i++) {
+//     sum+=arr[i]
+//     if (sum<0) {
+//         sum=0
         
-    }
-    if (sum>max) {
-        max=sum
+//     }
+//     if (sum>max) {
+//         max=sum
+        
+//     }
+
+    
+// }
+// console.log(max);
+// console.log(sum);
+
+let arr=[2,2,1,3,3,3,3,3,1,3,3,3,3,2,2]
+let count=1
+let ans=arr[0]
+for (let i = 1; i < arr.length; i++) {
+
+        if (count===0) {
+       ans=arr[i]
+    //    console.log(ans);
+       count=1
+       
+    } else if (ans==arr[i]) {
+        count++
+        // console.log("hi");
+        
+        
+    }else{
+        count--
+        // console.log("hy");
         
     }
 
+
+    
+    
     
 }
-console.log(max);
-console.log(sum);
+console.log(ans)
+
+
 
 
 
