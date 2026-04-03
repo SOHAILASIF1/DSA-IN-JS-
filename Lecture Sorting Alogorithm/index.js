@@ -16,28 +16,41 @@
 // }
 // console.log(arr);
 
-//selection sort
-let arr=[2,3,14,5,6]
-let n=arr.length
-for (let i = 0; i < n-1; i++) {
-    let minIndx=i    //0
-    for (let j = i+1; j < n; j++) {
-        if (arr[minIndx]>arr[j]) {
-            minIndx=j
+// //selection sort
+// let arr=[2,3,14,5,6]
+// let n=arr.length
+// for (let i = 0; i < n-1; i++) {
+//     let minIndx=i    //0
+//     for (let j = i+1; j < n; j++) {
+//         if (arr[minIndx]>arr[j]) {
+//             minIndx=j
             
-        }
-        console.log(minIndx);
+//         }
+//         console.log(minIndx);
         
        
         
-    }
-     if (minIndx!=i) {
-            let temp=arr[minIndx]
-             arr[minIndx]=arr[i]
-             arr[i]=temp
+//     }
+//      if (minIndx!=i) {
+//             let temp=arr[minIndx]
+//              arr[minIndx]=arr[i]
+//              arr[i]=temp
             
-        }
+//         }
     
-}
+// }
 
-console.log(arr);
+// console.log(arr);
+// insertion sort
+let arr=[3,2,35,6,7,8]
+let n=arr.length
+for (let i = 1; i < n; i++) {
+    let key=arr[i]
+    let j=i-1
+    while(j>=0 && arr[j]>key){
+        arr[j+1]=arr[j]
+    j--
+    }
+    arr[j+1]=key
+    
+}console.log(arr);
