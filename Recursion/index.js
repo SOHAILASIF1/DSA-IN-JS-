@@ -17,13 +17,25 @@
 // }
 // printNum(10000)
 
-//print natural number 1 to n
+// //print natural number 1 to n
 
-function printNum(n){
-    if(n==0)return
-    printNum(n-1)
-    console.log(n);
+// function printNum(n){
+//     if(n==0)return
+//     printNum(n-1)
+//     console.log(n);
     
 
+// }
+// printNum(1000)
+
+
+// // print sum 1 to n
+function sumN(n){
+    if(n===1) return 1
+    
+    return n+sumN(n-1)
+    
+    
 }
-printNum(1000)
+console.log(sumN(5));
+
