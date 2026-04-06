@@ -99,21 +99,62 @@
 // }
 // console.log(max);
 
-//third max element
-let arr=[12,13,43,45,42,34]
-let max=0
-let secmax=0
-let thirdmax=0
-if (arr[0]>arr[1] && arr[0]>arr[2] &&arr[1]>arr[2]) {
-    max=arr[0]
-    secmax=arr[1]
-    thirdmax=arr[2]
+// //third max element
+// let arr=[12,13,43,45,42,34]
+// let max=0
+// let secmax=0
+// let thirdmax=0
+// if (arr[0]>arr[1] && arr[0]>arr[2] &&arr[1]>arr[2]) {
+//     max=arr[0]
+//     secmax=arr[1]
+//     thirdmax=arr[2]
 
     
-}else if(arr[1]>arr[0]&&arr[1]>arr[2]&&arr[0]>arr[2]){
-    max=arr[1]
-    secmax=arr[0]
-    thirdmax=arr[2]
-}else{
+// }else if(arr[1]>arr[0]&&arr[1]>arr[2]&&arr[0]>arr[2]){
+//     max=arr[1]
+//     secmax=arr[0]
+//     thirdmax=arr[2]
+// }else{
     
-}
+// }
+
+// var isPalindrome = function(x) {
+//     let rev=0
+//     let isPalindromeVal=false
+//     let copy=x
+//     while(x>0){
+//         let rem=x%10
+//         rev=rev*10+rem
+//         x=Math.floor(x/10)
+//     }
+//     if(copy===rev){
+//         return isPalindromeVal=true 
+//     }else{
+//        return isPalindromeVal=false
+//     }
+
+    
+// };
+// console.log(isPalindrome(-121));
+
+// var gcdOfOddEvenSums = function(n) {
+//     let sumOdd=0
+//     let sumEven=0
+//     for(let i=1;i<n*2;i++){
+//         if(i%2===0) sumEven+=i
+//         else sumOdd+=i
+//     }
+//     while (sumOdd!=sumEven){
+//         if(sumOdd>sumEven) sumOdd=sumOdd-sumEven
+//         else sumEven=sumEven-sumOdd
+
+    
+
+//     }
+
+//     return sumEven
+
+
+    
+// };
+// console.log(gcdOfOddEvenSums(5));
