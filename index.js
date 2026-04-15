@@ -158,3 +158,16 @@
     
 // };
 // console.log(gcdOfOddEvenSums(5));
+
+//recursive way 
+
+// function gcd(a,b) {
+//     if (a==b) return a
+//     if (a>b) return gcd(a-b,b)
+//     return gcd(a,b-a)
+    
+// }
+// console.log(gcd(96,24));
+
+
+
