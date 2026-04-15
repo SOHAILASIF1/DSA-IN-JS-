@@ -1,7 +1,25 @@
-let arr=[2,5,8,11,12,9,10,4,3,7,1,6]
+
+//1 to n [1,n]
+// let arr=[2,5,8,11,12,9,10,4,3,7,1,6]
+// let i=0
+// while (i<arr.length) {
+//     let corInd=arr[i]-1
+//     if (arr[i]!=arr[corInd]) {
+//         let temp=arr[i]
+//         arr[i]=arr[corInd]
+//         arr[corInd]=temp
+        
+//     }
+//     else i++
+    
+// }
+// console.log(arr);
+
+//0 to n-1 [0,n-1]
+let arr=[2,0,5,8,11,12,9,10,4,3,7,1,6]
 let i=0
 while (i<arr.length) {
-    let corInd=arr[i]-1
+    let corInd=arr[i]
     if (arr[i]!=arr[corInd]) {
         let temp=arr[i]
         arr[i]=arr[corInd]
@@ -12,3 +30,4 @@ while (i<arr.length) {
     
 }
 console.log(arr);
+
