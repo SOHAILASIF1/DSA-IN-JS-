@@ -72,18 +72,18 @@
 
 // //duplicate in sorted array
 
-// let arr=[0,0,1,1,1,2,3]
-// let j=1
+let arr=[0,0,1,1,1,2,3]
+let j=1
 
-// for (let i = 0; i < arr.length-1; i++) {
+for (let i = 0; i < arr.length-1; i++) {
    
-//     if (arr[i]!=arr[i+1]) {
-//         arr[j]=arr[i+1]
-//         j++
-//     }
+    if (arr[i]!=arr[i+1]) {
+        arr[j]=arr[i+1]
+        j++
+    }
    
-// }
-// console.log(arr);
+}
+console.log(arr);
 
 
 
@@ -191,33 +191,33 @@
 // console.log(max);
 // console.log(sum);
 
-let arr=[2,2,1,3,3,3,3,3,1,3,3,3,3,2,2]
-let count=1
-let ans=arr[0]
-for (let i = 1; i < arr.length; i++) {
+// let arr=[2,2,1,3,3,3,3,3,1,3,3,3,3,2,2]
+// let count=1
+// let ans=arr[0]
+// for (let i = 1; i < arr.length; i++) {
 
-        if (count===0) {
-       ans=arr[i]
-    //    console.log(ans);
-       count=1
+//         if (count===0) {
+//        ans=arr[i]
+//     //    console.log(ans);
+//        count=1
        
-    } else if (ans==arr[i]) {
-        count++
-        // console.log("hi");
+//     } else if (ans==arr[i]) {
+//         count++
+//         // console.log("hi");
         
         
-    }else{
-        count--
-        // console.log("hy");
+//     }else{
+//         count--
+//         // console.log("hy");
         
-    }
+//     }
 
 
     
     
     
-}
-console.log(ans)
+// }
+// console.log(ans)
 
 
 
