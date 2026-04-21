@@ -61,17 +61,32 @@
 
 
 //two sum
-let arr=[11,4,8,19]
-let target=12
-let map=new Map()
-for (let i = 0; i < arr.length; i++) {
-    if (map.has(target-arr[i])) {
-         console.log([i,map.get(target-arr[i])])
+// let arr=[11,4,8,19]
+// let target=12
+// let map=new Map()
+// for (let i = 0; i < arr.length; i++) {
+//     if (map.has(target-arr[i])) {
+//          console.log([i,map.get(target-arr[i])])
          
        
-    }else map.set(arr[i],i)
+//     }else map.set(arr[i],i)
+    
+// }
+
+//intersection of two array
+let arr1=[1,2,2,1]
+let arr2=[2,2]
+let set=new Set(arr1)
+let ans=[]
+for (let i = 0; i < arr2.length; i++) {
+     if (set.has(arr2[i])&&!ans.includes(arr2[i])) {
+        ans.push(arr2[i])
+        
+     }
     
 }
+console.log(ans);
+
 
 
 
