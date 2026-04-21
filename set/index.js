@@ -29,3 +29,15 @@
     
     
 // }
+
+// frequncy found of element
+let arr=[12,3,2,1,2,3,2,1,2,4,5,6,7,6,5]
+let map=new Map()
+for (let i = 0; i < arr.length; i++) {
+    if (map.has(arr[i])) {
+       map.set(arr[i],map.get(arr[i])+1)
+    }else map.set(arr[i],1)
+    
+}
+console.log(map);
+
