@@ -13,19 +13,19 @@
 // check sentence is pangilarm
 //The quick brown fox jumps over the lazy dog
 
-let sen="thequickbrownfoxjumpsoverthelazydog"
-let set=new Set()
-for (let i = 0; i < sen.length; i++) {
-   let ch=sen.charAt(i);
-   set.add(ch)
+// let sen="thequickbrownfoxjumpsoverthelazydog"
+// let set=new Set()
+// for (let i = 0; i < sen.length; i++) {
+//    let ch=sen.charAt(i);
+//    set.add(ch)
     
-}
-console.log(set);
-console.log(set.size);
+// }
+// console.log(set);
+// console.log(set.size);
 
 
-if (set.size===26) {
-    console.log(true);
+// if (set.size===26) {
+//     console.log(true);
     
     
-}
+// }
