@@ -14,19 +14,22 @@
 
 
 //insert at begaining
-function node(data) {
-    this.data=data
-    this.next=null
+// function node(data) {
+//     this.data=data
+//     this.next=null
     
-}
+// }
 
-let head=new node(15)
-let mid=new node(16)
-head.next=mid
-let newOne=new node(14)
-newOne.next=head
-head=newOne
-console.log(newOne
-);
+// let head=new node(15)
+// let mid=new node(16)
+// head.next=mid
+// let newOne=new node(14)
+// newOne.next=head
+// head=newOne
+// console.log(newOne
+// );
 
 //insert at end
+
+
+
