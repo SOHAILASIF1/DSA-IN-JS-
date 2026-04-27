@@ -37,7 +37,7 @@ function node (data) {
     
 }
 function insertatend(tamp,head) {
-    current=head
+    let current=head
     while (current.next!=null) {
         console.log(current.next);
         current=current.next
@@ -45,6 +45,11 @@ function insertatend(tamp,head) {
         
     }
     current=current.next
+    
+}
+function traves(head) {
+
+    let current=head
     
 }
 let head=new node(10)
