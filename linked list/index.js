@@ -31,36 +31,34 @@
 
 //insert at end
 
-function node (data) {
-    this.data=data
-    this.next=null
-     
+function node(data) {
+    this.data = data
+    this.next = null
 }
-function insertatend(tamp,head) {
-    let current=head
-    while (current.next!=null) {
-        console.log(current.next);
-        current=current.next
-        
-        
-    } 
-    current.next=tamp
-    
-}
-function traves(head) {
 
-    let current=head
-    while (current!=null) {
-        current=current.next
-        
+function insertatend(temp, head) {
+    let current = head
+    while (current.next != null) {
+        current = current.next
     }
-    
+    current.next = temp
 }
-let head=new node(10)
-let mid=new node(20)
-head.next=mid
-let tailnode=new node(30)
-insertatend(tailnode,head)
+
+function traves(head) {
+    let current = head
+    while (current != null) {
+        console.log(current.data)
+        current = current.next
+    }
+}
+
+let head = new node(10)
+let mid = new node(20)
+head.next = mid
+
+let tailnode = new node(30)
+
+insertatend(tailnode, head)
 traves(head)
 
 
