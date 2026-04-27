@@ -44,7 +44,7 @@ function insertatend(tamp,head) {
         
         
     }
-    current=current.next
+    current.next=temp
     
 }
 function traves(head) {
