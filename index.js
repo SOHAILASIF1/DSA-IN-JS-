@@ -171,5 +171,5 @@ Promise.resolve().then(()=>{
   console.log("promise");
   
 })
-console.log("bye "); hi
+console.log("bye "); hi i
 
