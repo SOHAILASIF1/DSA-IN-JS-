@@ -36,12 +36,22 @@ function node (data) {
     this.next=null
     
 }
-function insertatend(params) {
+function insertatend(tamp,head) {
+    current=head
+    while (current.next!=null) {
+        console.log(current.next);
+        current=current.next
+        
+        
+    }
+    current=current.next
     
 }
 let head=new node(10)
 let mid=new node(20)
 head.next=mid
+let tailnode=new node(30)
+insertatend(tailnode,head)
 
 
 
