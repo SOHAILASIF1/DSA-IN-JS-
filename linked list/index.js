@@ -36,8 +36,13 @@ function node (data) {
     this.next=null
     
 }
+function insertatend(params) {
+    
+}
 let head=new node(10)
 let mid=new node(20)
+head.next=mid
+
 
 
 
