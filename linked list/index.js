@@ -34,7 +34,7 @@
 function node (data) {
     this.data=data
     this.next=null
-    
+     j
 }
 function insertatend(tamp,head) {
     let current=head
