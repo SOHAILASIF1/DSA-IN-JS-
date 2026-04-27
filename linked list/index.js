@@ -50,6 +50,10 @@ function insertatend(tamp,head) {
 function traves(head) {
 
     let current=head
+    while (current!=null) {
+        current=current.next
+        
+    }
     
 }
 let head=new node(10)
@@ -57,6 +61,7 @@ let mid=new node(20)
 head.next=mid
 let tailnode=new node(30)
 insertatend(tailnode,head)
+traves(head)
 
 
 
