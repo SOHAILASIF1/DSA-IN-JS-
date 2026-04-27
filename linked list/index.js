@@ -43,7 +43,7 @@ function insertatend(tamp,head) {
         current=current.next
         
         
-    } 
+    } h
     current.next=tamp
     
 }
