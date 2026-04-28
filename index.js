@@ -162,14 +162,24 @@
 
 
 
-console.log("start");
-setTimeout(() => {
-  console.log("a");
+// console.log("start");
+// setTimeout(() => {
+//   console.log("a");
 
-}, 0)
-Promise.resolve().then(()=>{
-  console.log("promise");
+// }, 0)
+// Promise.resolve().then(()=>{
+//   console.log("promise");
   
-})
-console.log("bye "); hi i
+// })
+// console.log("bye "); 
 
+
+
+
+
+//higher order function  
+function a(b) {
+  console.log(b);
+  
+  
+}
