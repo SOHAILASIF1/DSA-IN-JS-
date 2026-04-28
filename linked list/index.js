@@ -77,7 +77,7 @@ let tailnode = new node(30)
 //delete at end
  head=deleteatend(head)
 
-insertatend(tailnode, head)
+// insertatend(tailnode, head)
 traves(head)
 
 
