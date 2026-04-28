@@ -61,6 +61,9 @@ let tailnode = new node(30)
 insertatend(tailnode, head)
 traves(head)
 
+//delete at first node 
+
+
 
 
 
