@@ -179,7 +179,14 @@
 
 //higher order function  
 function a(b) {
-  console.log(b);
+  console.log("hi");
+  b()
   
   
 }
+function sayHi() {
+  console.log("hiiiiiiii");
+  
+  
+}
+a(sayHi)
