@@ -60,12 +60,13 @@ let mid = new node(20)
 head.next = mid
 
 let tailnode = new node(30)
+//delete at first node 
+head=deletefirstNode(head)
 
 insertatend(tailnode, head)
 traves(head)
 
-//delete at first node 
-head=deletefirstNode(head)
+
 
 
 
