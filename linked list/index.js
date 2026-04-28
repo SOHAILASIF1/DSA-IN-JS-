@@ -51,7 +51,7 @@ function traves(head) {
         current = current.next
     }
 }
-
+function ()
 let head = new node(10)
 let mid = new node(20)
 head.next = mid
@@ -62,7 +62,7 @@ insertatend(tailnode, head)
 traves(head)
 
 //delete at first node 
-
+head=deletefirstNode(head)
 
 
 
