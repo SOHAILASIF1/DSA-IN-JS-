@@ -65,11 +65,13 @@ function deleteatend(head) {
     return head
     
 }
-let head = new node(10)
-let mid = new node(20)
+let head = new node(1)
+let mid = new node(2)
+let secondlast=new node(3)
 head.next = mid
+mid.next=secondlast
 
-let tailnode = new node(30)
+let tailnode = new node(4)
 //delete at first node 
 // head=deletefirstNode(head)
 
@@ -79,7 +81,7 @@ let tailnode = new node(30)
 insertatend(tailnode, head)
 
 //delete at end
- head=deleteatend(head)
+//  head=deleteatend(head)
 
 traves(head)
 //now ok  hay  sab sahi  chal  raha  hay
