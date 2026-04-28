@@ -55,6 +55,7 @@ function deletefirstNode(head){
     return head.next
 
 }
+
 let head = new node(10)
 let mid = new node(20)
 head.next = mid
@@ -65,6 +66,7 @@ let tailnode = new node(30)
 
 
 //delete at end
+let head=deleteatend(head)
 
 insertatend(tailnode, head)
 traves(head)
