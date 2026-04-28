@@ -71,7 +71,7 @@ function searchin(head) {
         current=current.data
 
     }
-    return current
+    return current.data
 }
 let head = new node(1)
 let mid = new node(2)
