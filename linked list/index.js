@@ -55,7 +55,16 @@ function deletefirstNode(head){
     return head.next
 
 }
-
+function deleteatend(head) {
+    current=head
+    while (current.next.next!=null) {
+        current=current.next
+        
+    }
+    current.next=null
+    return head
+    
+}
 let head = new node(10)
 let mid = new node(20)
 head.next = mid
