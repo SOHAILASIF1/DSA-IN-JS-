@@ -51,7 +51,10 @@ function traves(head) {
         current = current.next
     }
 }
-function ()
+function deletefirstNode(head){
+    return head.next
+
+}
 let head = new node(10)
 let mid = new node(20)
 head.next = mid
