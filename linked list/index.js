@@ -65,6 +65,14 @@ function deleteatend(head) {
     return head
     
 }
+function searchin(head) {
+    let current=head
+    while(current.data===3){
+        current=current.data
+
+    }
+    return current
+}
 let head = new node(1)
 let mid = new node(2)
 let secondlast=new node(3)
@@ -79,6 +87,9 @@ let tailnode = new node(4)
 
 
 insertatend(tailnode, head)
+
+//search in linked list
+head=searchin(head)
 
 //delete at end
 //  head=deleteatend(head)
