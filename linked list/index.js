@@ -56,7 +56,7 @@ function deletefirstNode(head){
 
 }
 function deleteatend(head) {
-    current=head
+    let current=head
     while (current.next.next!=null) {
         current=current.next
         
