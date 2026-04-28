@@ -180,7 +180,7 @@
 //higher order function  
 function a(b) {
   console.log("hi");
-  b()
+  b(sayPakisan())
   
   
 }
@@ -189,4 +189,10 @@ function sayHi() {
   
   
 }
+function sayPakisan() {
+  console.log("Pakistan");
+  
+  
+}
+
 a(sayHi)
