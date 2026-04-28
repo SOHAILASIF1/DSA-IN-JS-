@@ -82,7 +82,7 @@ insertatend(tailnode, head)
  head=deleteatend(head)
 
 traves(head)
-//now ok  hay  sab sahi  chal  raha  ahya
+//now ok  hay  sab sahi  chal  raha  hay
 
 
 
