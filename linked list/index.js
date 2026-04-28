@@ -82,6 +82,7 @@ insertatend(tailnode, head)
  head=deleteatend(head)
 
 traves(head)
+//now
 
 
 
