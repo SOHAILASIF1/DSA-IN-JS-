@@ -89,7 +89,8 @@ function middleoflinkedlist(head) {
         lenght++
         
     }
-    return Math.floor((copy+lenght)/2)
+   let ptr=head
+   
     
 }
 let head = new node(1)
