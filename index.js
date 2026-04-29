@@ -215,17 +215,17 @@
 
 
 
-const user={
-  name:"ali",
-  fullname:"hi",
-  printN: function(){
-    console.log(this.name);
+// const user={
+//   name:"ali",
+//   fullname:"hi",
+//   printN: function(){
+//     console.log(this.name);
     
 
     
-  }
-}
-user.printN()
+//   }
+// }
+// user.printN()
 
 //expected "ali"
 
