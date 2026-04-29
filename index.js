@@ -202,15 +202,15 @@
 
 /// lets read  some about this keyword
 
-console.log(this);
+// console.log(this);
 // expected output is window
 
-function hi() {
-  console.log(this);
+// function hi() {
+//   console.log(this);
   
   
-}
-hi()
+// }
+// hi()
 // expected is window
 
 
