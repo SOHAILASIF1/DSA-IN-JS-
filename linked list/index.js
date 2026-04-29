@@ -112,7 +112,7 @@ traves(head)
 
 
 
-//
+//middleof the linked list bruteforce approch
 
 
 
