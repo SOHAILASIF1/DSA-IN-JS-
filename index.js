@@ -200,6 +200,10 @@
 
 
 
-/// lets read 
+/// lets read  some about this keyword
+
+console.log(this);
+// expected output is window
+
 
 
