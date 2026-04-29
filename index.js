@@ -246,5 +246,6 @@ const user1={
   }
 
 }
+user1.printN()
 
 
