@@ -130,11 +130,19 @@ insertatend(new node(6),head)
 
 
 
-
 //middleof the linked list 
 // //bruteforce approch
-let ans=middleoflinkedlist(head)
-console.log(ans);
+// let ans=middleoflinkedlist(head)
+// console.log(ans);
+
+//miidle of linked optimized approch
+let ans=middleoflinkedlistOptimized(head)
+function middleoflinkedlistOptimized(head) {
+    let f=head
+    let s=head
+    
+    
+}
 
 
 
