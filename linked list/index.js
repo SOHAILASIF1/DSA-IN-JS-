@@ -117,7 +117,7 @@ insertatend(tailnode,head)
 //delete at end
 //  head=deleteatend(head)
 
-// traves(head)
+traves(head)
 //now ok  hay  sab sahi  chal  raha  hay
 
 
