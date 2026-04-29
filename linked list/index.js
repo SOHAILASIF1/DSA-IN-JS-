@@ -150,6 +150,8 @@ function middleoflinkedlistOptimized(head) {
        
     
 }
+console.log(ans);
+
 
 
 
