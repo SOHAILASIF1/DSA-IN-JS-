@@ -211,6 +211,7 @@ function hi() {
   
 }
 hi()
+// expected is window
 
 
 
