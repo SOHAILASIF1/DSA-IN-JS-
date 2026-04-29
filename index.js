@@ -227,4 +227,24 @@ const user={
 }
 user.printN()
 
+//expected "ali"
+
+const user1={
+  name:"ali",
+  fullname:"hi",
+  printN: function(){
+
+    function ali() {
+      console.log(this);
+      
+      
+    }
+    ali()
+    
+
+    
+  }
+
+}
+
 
