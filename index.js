@@ -249,3 +249,15 @@ const user1={
 user1.printN()
 
 
+//expected window
+
+
+
+
+
+
+"use strict";
+function test() {
+  console.log(this);
+}
+test();
