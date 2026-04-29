@@ -115,7 +115,7 @@ let tailnode=new node(5)
 
 insertatend(sectailnode, head)
 insertatend(tailnode,head)
-// insertatend(new node(6),head)
+insertatend(new node(6),head)
 
 //search in linked list
 // let ans=searchin(head,3)
