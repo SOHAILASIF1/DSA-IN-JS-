@@ -146,7 +146,7 @@ function middleoflinkedlistOptimized(head) {
 
 
     }
-    return s
+    return s.data
        
     
 }
