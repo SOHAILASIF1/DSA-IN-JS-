@@ -91,7 +91,7 @@ function middleoflinkedlist(head) {
     }
    let ptr=head
    let middle=Math.floor(lenght/2)
-   for (let i = 0; i <= middle; i++) {
+   for (let i = 0; i < middle; i++) {
     ptr=ptr.next
     
    }
