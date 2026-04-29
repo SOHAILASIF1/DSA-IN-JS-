@@ -213,7 +213,18 @@ function hi() {
 hi()
 // expected is window
 
-UserActivation(s)
+
+
+const user={
+  name:"ali",
+  fullname:"hi",
+  printN: function(){
+    console.log(this.name);
+    
+
+    
+  }
+}
 
 
 
