@@ -178,21 +178,28 @@
 
 
 //higher order function  
-function a(b) {
-  console.log("hi");
-  b(sayPakisan())
+// function a(b) {
+//   console.log("hi");
+//   b(sayPakisan())
   
   
-}
-function sayHi() {
-  console.log("hiiiiiiii");
+// }
+// function sayHi() {
+//   console.log("hiiiiiiii");
   
   
-}
-function sayPakisan() {
-  console.log("Pakistan");
+// }
+// function sayPakisan() {
+//   console.log("Pakistan");
   
   
-}
+// }
 
-a(sayHi)
+// a(sayHi)
+
+
+
+
+/// lets read 
+
+
