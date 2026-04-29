@@ -90,7 +90,7 @@ function middleoflinkedlist(head) {
         
     }
    let ptr=head
-   
+   let
     
 }
 let head = new node(1)
