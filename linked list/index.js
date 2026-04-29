@@ -96,8 +96,8 @@ let tailnode = new node(4)
 insertatend(tailnode, head)
 
 //search in linked list
-let ans=searchin(head,3)
-console.log(ans);
+// let ans=searchin(head,3)
+// console.log(ans);
 
 
 //delete at end
