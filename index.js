@@ -225,6 +225,6 @@ const user={
     
   }
 }
-
+user.printN()
 
 
