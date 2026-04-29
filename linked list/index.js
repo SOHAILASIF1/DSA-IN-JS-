@@ -80,6 +80,17 @@ function searchin(head,data) {
     }
     return current.data
 }
+function middleoflinkedlist(head) {
+    let ptr=head
+    let lenght=0
+    while (ptr!=null) {
+        ptr=ptr.next
+        lenght++
+        
+    }
+    return lenght
+    
+}
 let head = new node(1)
 let mid = new node(2)
 let secondlast=new node(3)
@@ -112,7 +123,11 @@ traves(head)
 
 
 
-//middleof the linked list bruteforce approch
+//middleof the linked list 
+// //bruteforce approch
+let ans=middleoflinkedlist(head)
+
+
 
 
 
