@@ -263,12 +263,12 @@
 // test();
 
 
-const obj = {
-  name: "Alyan",
-  getName: function () {
-    return () => {
-      console.log(this.name);
-    };
-  }
-};
-obj.getName()();
+// const obj = {
+//   name: "Alyan",
+//   getName: function () {
+//     return () => {
+//       console.log(this.name);
+//     };
+//   }
+// };
+// obj.getName()();
