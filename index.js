@@ -256,8 +256,19 @@
 
 
 
-"use strict";
-function test() {
-  console.log(this);
-}
-test();
+// "use strict";
+// function test() {
+//   console.log(this);
+// }
+// test();
+
+
+const obj = {
+  name: "Alyan",
+  getName: function () {
+    return () => {
+      console.log(this.name);
+    };
+  }
+};
+obj.getName()();
