@@ -86,14 +86,17 @@ let secondlast=new node(3)
 head.next = mid
 mid.next=secondlast
 
-let tailnode = new node(4)
+let sectailnode = new node(4)
+let tailnode=new node(5)
+
 //delete at first node 
 // head=deletefirstNode(head)
 
 
 
 
-insertatend(tailnode, head)
+insertatend(sectailnode, head)
+insertatend(tailnode,head)
 
 //search in linked list
 // let ans=searchin(head,3)
