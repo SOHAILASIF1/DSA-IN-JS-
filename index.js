@@ -272,3 +272,13 @@
 //   }
 // };
 // obj.getName()();
+const obj = {
+  name: "Alyan",
+  getName: function () {
+    const inner = () => {
+      console.log(this.name);
+    };
+    inner();
+  }
+};
+obj.getName();
