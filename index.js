@@ -205,5 +205,12 @@
 console.log(this);
 // expected output is window
 
+function hi() {
+  console.log(this);
+  
+  
+}
+hi()
+
 
 
