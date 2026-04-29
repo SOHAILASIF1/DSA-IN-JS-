@@ -229,24 +229,24 @@
 
 //expected "ali"
 
-const user1={
-  name:"ali",
-  fullname:"hi",
-  printN: function(){
+// const user1={
+//   name:"ali",
+//   fullname:"hi",
+//   printN: function(){
 
-    function ali() {
-      console.log(this);
+//     function ali() {
+//       console.log(this);
       
       
-    }
-    ali()
+//     }
+//     ali()
     
 
     
-  }
+//   }
 
-}
-user1.printN()
+// }
+// user1.printN()
 
 
 //expected window
