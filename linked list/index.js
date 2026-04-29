@@ -83,12 +83,13 @@ function searchin(head,data) {
 function middleoflinkedlist(head) {
     let ptr=head
     let lenght=0
+    let copy=lenght
     while (ptr!=null) {
         ptr=ptr.next
         lenght++
         
     }
-    return lenght
+    return Math.floor((copy+lenght)/2)
     
 }
 let head = new node(1)
@@ -127,6 +128,7 @@ insertatend(tailnode,head)
 // //bruteforce approch
 let ans=middleoflinkedlist(head)
 console.log(ans);
+
 
 
 
