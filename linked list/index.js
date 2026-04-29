@@ -140,7 +140,7 @@ let ans=middleoflinkedlistOptimized(head)
 function middleoflinkedlistOptimized(head) {
     let f=head
     let s=head
-    while(f.next!=null){
+    while(f != null && f.next != null){
          f=f.next.next
          s=s.next
 
