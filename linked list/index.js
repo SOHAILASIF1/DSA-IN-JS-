@@ -170,7 +170,7 @@ function reverse(head) {
         
         
     }
-    return prev.data
+    return prev
 }
 
 
