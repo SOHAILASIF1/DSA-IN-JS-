@@ -164,7 +164,7 @@ function reverse(head) {
     while (curr!=null) {
         next=curr.next
         curr.next=prev
-        prev=curr
+        prev+=curr
         curr=next
         
     }
