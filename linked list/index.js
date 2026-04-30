@@ -168,7 +168,7 @@ function reverse(head) {
         curr=next
         
     }
-    return prev
+    return prev.data
 }
 
 
