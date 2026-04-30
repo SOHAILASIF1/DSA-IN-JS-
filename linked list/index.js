@@ -136,21 +136,42 @@ insertatend(new node(6),head)
 // console.log(ans);
 
 //miidle of linked optimized approch
-let ans=middleoflinkedlistOptimized(head)
-function middleoflinkedlistOptimized(head) {
-    let f=head
-    let s=head
-    while(f != null && f.next != null){
-         f=f.next.next
-         s=s.next
+// let ans=middleoflinkedlistOptimized(head)
+// function middleoflinkedlistOptimized(head) {
+//     let f=head
+//     let s=head
+//     while(f != null && f.next != null){
+//          f=f.next.next
+//          s=s.next
 
 
-    }
-    return s.data
+//     }
+//     return s.data
        
     
-}
+// }
+// console.log(ans);
+
+//reverse a string
+
+let ans=reverse(head)
 console.log(ans);
+
+function reverse(head) {
+    let curr=head
+    let next=null
+    let prev=null
+    while (curr!=null) {
+        next=curr.next
+        curr.next=prev
+        prev=curr
+        curr=next
+        
+    }
+    return prev
+}
+
+
 
 
 
