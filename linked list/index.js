@@ -163,10 +163,9 @@ function reverse(head) {
     let prev=null
     while (curr!=null) {
         next=curr.next
-        curr=prev
-           prev+=curr
+        prev=curr
         curr=next
-     
+        prev+=curr
         
         
     }
