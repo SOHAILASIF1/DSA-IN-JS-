@@ -106,6 +106,7 @@ mid.next=secondlast
 
 let sectailnode = new node(4)
 let tailnode=new node(5)
+tailnode.next.head
 
 //delete at first node 
 // head=deletefirstNode(head)
