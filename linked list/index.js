@@ -154,24 +154,45 @@ insertatend(new node(6),head)
 
 //reverse a string
 
-let ans=reverse(head)
-console.log(ans);
+// let ans=reverse(head)
+// console.log(ans);
 
-function reverse(head) {
-    let curr=head
-    let next=null
-    let prev=null
-    while (curr!=null) {
-        next=curr.next
-        curr.next=prev
-        prev=curr
-        curr=next
+// function reverse(head) {
+//     let curr=head
+//     let next=null
+//     let prev=null
+//     while (curr!=null) {
+//         next=curr.next
+//         curr.next=prev
+//         prev=curr
+//         curr=next
         
         
+        
+//     }
+//     return prev
+// }
+
+
+//detect cycle in linked listt
+let ans=detect(head)
+function detect(params) {
+
+    let s=head
+    let f=head
+    while (f!=null && f.next!=null) {
+        s=s.next
+        f=f.next.next
+        if (f==s) {
+            return true
+            
+        }
         
     }
-    return prev
+    return false
+    
 }
+
 
 
 
