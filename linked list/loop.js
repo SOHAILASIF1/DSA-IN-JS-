@@ -28,7 +28,7 @@ function detect(head) {
     let isLoop=false
 
 
-    while (fast!=null && fast.next!=null) {
+    while (f!=null && f.next!=null) {
     s=s.next
     f=f.next.next
     if (s==f) {
