@@ -20,8 +20,34 @@ third.next = fourth;
 fourth.next = second; // yahan loop ban gaya (4 -> 2)
 
 // ❗ Infinite traversal ho jayega agar loop handle na kiya
-let ans=detect()
+let ans=detect(head)
 
 function detect(head) {
+    let s=head
+    let f=head
+    let isLoop=false
+
+
+    while (fast!=null && fast.next!=null) {
+    s=s.next
+    f=f.next.next
+    if (s==f) {
+        isLoop=true
+        
+    }
+    if (!isLoop) {
+        return null
+        
+    }
+
+    s=head
+    while (s!=f) {
+        s=s.next
+        f=f.next
+        
+    }
+    return s
+    
+}
     
 }
