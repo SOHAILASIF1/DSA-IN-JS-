@@ -35,6 +35,7 @@ function detect(head) {
     f=f.next.next
     if (s==f) {
         isLoop=true
+        break
         
     }
     if (!isLoop) {
