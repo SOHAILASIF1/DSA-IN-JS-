@@ -188,7 +188,7 @@ function detect(params) {
         f=f.next.next
         if (f==s) {
            s=head
-           while (s!=fast) {
+           while (s!=f) {
             s=s.next
             f=f.next
             
