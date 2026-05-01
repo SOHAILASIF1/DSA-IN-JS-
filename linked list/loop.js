@@ -38,10 +38,12 @@ function detect(head) {
         break
         
     }
-    if (!isLoop) {
+}
+ if (!isLoop) {
         return null
         
     }
+   
 
     s=head
     while (s!=f) {
@@ -51,6 +53,6 @@ function detect(head) {
     }
     return s
     
-}
+
     
 }
