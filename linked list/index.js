@@ -176,6 +176,8 @@ insertatend(new node(6),head)
 
 //detect cycle in linked listt
 let ans=detect(head)
+console.log(ans);
+
 function detect(params) {
 
     let s=head
