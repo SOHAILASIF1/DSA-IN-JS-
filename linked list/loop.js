@@ -39,7 +39,7 @@ function detect(head) {
         
     }
 }
- if (!isLoop) {
+ if (!isLoop) { 
         return null
         
     }
