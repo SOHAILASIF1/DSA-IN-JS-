@@ -272,13 +272,32 @@
 //   }
 // };
 // obj.getName()();
-const obj = {
-  name: "Alyan",
-  getName: function () {
-    const inner = () => {
-      console.log(this.name);
-    };
-    inner();
-  }
-};
-obj.getName();
+// const obj = {
+//   name: "Alyan",
+//   getName: function () {
+//     const inner = () => {
+//       console.log(this.name);
+//     };
+//     inner();
+//   }
+// };
+// obj.getName();
+
+// call stack
+
+console.log("hi");
+function sayHi() {
+  console.log("SayHI")
+  add(7,6)
+
+  
+  
+}
+function add(x,y) {
+  console.log(x+y);
+  
+  
+}
+sayHi()
+console.log("bye");
+
