@@ -10,7 +10,7 @@
 // let tail=new node(15)
 // mid.next=tail
 // console.log(head); hds
-
+ 
 
 
 //insert at begaining
