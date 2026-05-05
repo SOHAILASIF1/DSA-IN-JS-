@@ -50,5 +50,5 @@ function mergeSorted(head1,head2){
     }
 
 }
-traverse(ans) //jh
+traverse(ans) //jh hh
 
