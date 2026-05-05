@@ -21,16 +21,16 @@ function traverse(head) {
     let current = head;
 
     while (current != null) {
-        console.log(current.data);
+        // console.log(current.data);
         current = current.next;
     }
 }
 
-console.log("Linked List 1:");
-traverse(head1);
+// console.log("Linked List 1:");
+// traverse(head1);
 
-console.log("Linked List 2:");
-traverse(head2);
+// console.log("Linked List 2:");
+// traverse(head2);
 
 
 
@@ -50,5 +50,5 @@ function mergeSorted(head1,head2){
     }
 
 }
-traverse(ans)
+traverse(ans) //jh
 
