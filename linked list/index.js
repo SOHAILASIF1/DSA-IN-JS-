@@ -9,7 +9,7 @@
 // console.log(head);
 // let tail=new node(15)
 // mid.next=tail
-// console.log(head);
+// console.log(head); hds
 
 
 
