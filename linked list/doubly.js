@@ -72,6 +72,6 @@ pushFront(20);
 pushFront(10);
 insertatend(5)
 insertatend(11)
-popfirst()
+popfirst(head)
 
 printList(); 
