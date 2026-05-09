@@ -41,6 +41,18 @@ function insertatend(data) {
     }
     
 
+    function popfirst(head) {
+        let temp=head
+        head=head.next
+        if (head!=null) {
+            head.prev=null
+            
+        }
+        temp.next=null
+        delete(temp)
+        
+    }
+
 // Print list
 function printList() {
     let temp = head;
