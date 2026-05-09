@@ -46,7 +46,7 @@ function printList() {
     let temp = head;
 
     while (temp !== null) {
-        process.stdout.write(temp + " <-> ");
+        process.stdout.write(temp.data + " <-> ");
         temp = temp.next;
     }
 
