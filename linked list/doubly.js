@@ -25,7 +25,22 @@ function pushFront(data) {
     head.prev = newNode;
     head = newNode;
 }
+function insertatend(data) {
+    let newNode=createNode(data)
+   if (head==null) {
+    head=newNode
+    tail=newNode
+    return
+    
+   }
+   tail.next=newNode
+   newNode.prev=tail
+   tail=newNode
 
+        
+    }
+    
+}
 // Print list
 function printList() {
     let temp = head;
