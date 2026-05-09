@@ -40,7 +40,7 @@ function insertatend(data) {
         
     }
     
-}
+
 // Print list
 function printList() {
     let temp = head;
