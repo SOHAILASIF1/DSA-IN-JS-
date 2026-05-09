@@ -41,7 +41,7 @@ function insertatend(data) {
     }
     
 
-    function popfirst(head) {
+    function popfirst() {
         let temp=head
         head=head.next
         if (head!=null) {
@@ -72,6 +72,6 @@ pushFront(20);
 pushFront(10);
 insertatend(5)
 insertatend(11)
-popfirst(head)
+popfirst()
 
 printList(); 
