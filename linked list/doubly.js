@@ -31,9 +31,10 @@ function printList() {
     let temp = head;
 
     while (temp !== null) {
-        process.stdout.write(temp.data + " <-> ");
+        process.stdout.write(temp + " <-> ");
         temp = temp.next;
     }
+
 
     console.log("null");
 }
@@ -43,4 +44,4 @@ pushFront(30);
 pushFront(20);
 pushFront(10);
 
-printList();
+printList(); 
