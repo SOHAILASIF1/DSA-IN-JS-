@@ -20,12 +20,12 @@ function size(params) {
     return stack.length
 }
 function isEmpty(params) {
-    return stack.size==0
+    return stack.length==0
     
 }
 
 function behaviorOfStack(){
-    while (stack!=isEmpty) {
+    while (!stack!=isEmpty) {
         console.log(top());
         
         stack.pop()
