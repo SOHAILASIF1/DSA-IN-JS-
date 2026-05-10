@@ -6,13 +6,14 @@ function push(data) {
     
 }
 function pop(data) {
-    stack.pop()
+     return stack.pop()
     console.log("rem" , stack.removed);
     
     
 }
 
-console.log(stack);
 stack.push(100)
 stack.push(200)
 stack.pop()
+
+console.log(stack);
