@@ -28,4 +28,4 @@ stack.push(100)
 stack.push(200)
 
 
-console.log(stack.top());
+console.log(top());
