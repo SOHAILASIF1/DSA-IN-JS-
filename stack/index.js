@@ -39,4 +39,5 @@ stack.push(200)
 stack.push(110)
 
 
-console.log(top());
+console.log(behaviorOfStack());
+
