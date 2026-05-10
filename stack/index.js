@@ -23,6 +23,7 @@ function top() {
 
 stack.push(100)
 stack.push(200)
+stack.push(110)
 
 
 console.log(top());
