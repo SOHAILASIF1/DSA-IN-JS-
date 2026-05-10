@@ -25,7 +25,7 @@ function isEmpty(params) {
 }
 
 function behaviorOfStack(){
-    while (!stack!=isEmpty) {
+    while (!isEmpty()) {
         console.log(top());
         
         stack.pop()
