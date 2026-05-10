@@ -12,4 +12,7 @@ function pop(data) {
     
 }
 
+console.log(stack);
+stack.push(100)
+stack.push(200)
 stack.pop()
