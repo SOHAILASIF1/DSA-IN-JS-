@@ -19,10 +19,7 @@ function top() {
     return stack[stack.length-1]
     
 }
-function  top(params) {
-    return 
-    
-}
+
 
 stack.push(100)
 stack.push(200)
