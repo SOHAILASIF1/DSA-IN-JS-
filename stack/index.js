@@ -7,7 +7,7 @@ function push(data) {
 }
 function pop(data) {
      return stack.pop()
-    console.log("rem" , stack.removed);
+    console.log("rem" , stack.pop());
     
     
 }
